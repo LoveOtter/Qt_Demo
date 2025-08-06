@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/imag">
+        <file>5.gif</file>
+    </qresource>
+</RCC>
