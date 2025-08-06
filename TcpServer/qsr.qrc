@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/imag">
+        <file>60.png</file>
+        <file>66.png</file>
+    </qresource>
+</RCC>
