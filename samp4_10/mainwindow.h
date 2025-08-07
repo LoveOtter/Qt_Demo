@@ -27,6 +27,7 @@ private:
     QProgressBar *progressbar1;  //状态栏上的进度条
 
     QSpinBox *spinFontSize;  //字体大小
+    QSpinBox *spinFontSize1;  //字体个数
     QFontComboBox *comboFontName;  //字体名称
 
     QActionGroup *actionGroup;  //action分组 用于中文和英文的互斥选择
@@ -41,6 +42,11 @@ public:
 
 private slots:
     void lableUp();
+
+    void do_fontSize_changed(int fontSize);
+
+    void do_fontSelected(const QFont& font);
+
     void on_plainTextEdit_copyAvailable(bool b);
 
     void on_plainTextEdit_selectionChanged();
